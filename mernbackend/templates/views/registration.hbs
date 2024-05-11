@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    <div class="Registration">
+        <div class="wrapper">
+            <div class="inner">
+                <div class="image-holder">
+                    <img src="https://iotkiit.in/_next/image?url=%2Fimages%2Flogo_small.webp&w=828&q=75" alt="image">
+                </div>
+                <form action="registration" method="post">
+                    <h3>IOT LAB RECRUITMENT</h3>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="First Name" class="form-control" name = "firstname" required>
+                        <input type="text" placeholder="Last Name" class="form-control" name = "lastname" required>
+
+                    </div>
+                    <div class="form-wrapper">
+                        <input type="number" placeholder="Roll Number" class="form-control" name = "rollno" required>
+                    </div>
+
+                    <div class="form-wrapper">
+                        <input type="email" placeholder="Email Address" class="form-control" name = "email" required>
+                    </div>
+
+                    <div class="form-wrapper">
+                        <select name="year" class="form-control" required>
+                            <option value="" disabled selected>Year</option>
+                            <option value="first year">First Year</option>
+                            <option value="second year">Second Year</option>
+                            <option value="third year">Third Year</option>
+                            <option value="fourth year">Fourth Year</option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-wrapper">
+                        <select name="domain" class="form-control" required>
+                            <option value="" disabled selected>Domain</option>
+                            <option value="Machine learning">Machine learning</option>
+                            <option value="Web dev">Web Development</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Adminstration">Adminstration</option>
+                            <option value="Cyber secuirty">Cyber Secuirty</option>
+                            <option value="Graphic Designing">Graphic Designing"</option>
+                        </select>
+                    </div>
+                    <button>Register</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
